@@ -81,22 +81,22 @@ function App() {
         <Button />
       </div>
       <div className="absolute top-2 combined animate-pulse">
-        <img src={Combined} />
+        <img src={Combined} alt="Stars" />
       </div>
       <div className="absolute left__coin animate-bounce">
-        <img src={CoinRight} />
+        <img src={CoinRight} alt="Stars" />
       </div>
       <div className="absolute right__coin animate-bounce z-50">
-        <img src={CoinRight} />
+        <img src={CoinRight} alt="Stars" />
       </div>
       <div className="absolute pot xl:-bottom-20 lg:-bottom-32 md:-bottom-24 -bottom-12 z-40">
-        <img src={PotCoin} />
+        <img src={PotCoin} alt="Stars" />
       </div>
       <div className="absolute bottom-2 rotate ">
-        <img src={Rotate} className="block " />
+        <img src={Rotate} className="block " alt="Stars" />
       </div>
       <div className="absolute bottom-2 combined animate-pulse">
-        <img src={Combined} />
+        <img src={Combined} alt="Stars" />
       </div>
     </HomeBanner>
   );
